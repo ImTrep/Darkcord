@@ -8,9 +8,7 @@
 @import url('https://github.com/ImTrep/Darkcord/blob/aa186d0047c2d52c0bb429225b33b765c1f7c04b/Darkcord.css');
 
 :root {
-/* amount of spacing and padding */
 --spacing: 11px;
-/* radius of round corners */
 --roundness: 16px;
 border-radius: 14px;
 --blurple-replace: #7289DA;
