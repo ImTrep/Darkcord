@@ -1,10 +1,3 @@
-/**
-    * @name Darkcord
-    * @version 1.0
-    * @description It's dark here
-    * @author trep__
-**/
-
 :root {
 --spacing: 11px;
 --roundness: 16px;
@@ -128,7 +121,7 @@ border-radius: 14px;
 
 .connectContainer__8050b,
 .wrapper__6e669 /* friend activity cards */,
-.mainCard-3KBsBI /* forum posts and search */,
+.mainCard__8a660 /* forum posts and search */,
 .container__767d1 /* thread embed */,
 .embedFull__8dc21 /* regular embeds like GitHub links */,
 .attachment_f3cf2c /* attachments */,
@@ -556,22 +549,22 @@ html.theme-dark .theme-light .root_a28985,
 :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe {
   background-color: var(--background-primary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .mainCard-3KBsBI, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-2nXUah, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .increasedActivityMainCard-2ry6hI, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-3arpDl, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-2_J666 {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .mainCard__8a660, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-2nXUah, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .increasedActivityMainCard-2ry6hI, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-3arpDl, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-2_J666 {
   background-color: var(--background-tertiary);
 }
 :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .loadingCard-3pIp9h, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .card-3BPR1O {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-1PloNW:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container_c24cbd:hover {
   background-color: var(--background-modifier-hover);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-1PloNW:active {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container_c24cbd:active {
   background-color: var(--background-modifier-active);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-1PloNW.isOpen-O7ANQc {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container_c24cbd.isOpen_d88bb6 {
   background-color: var(--background-modifier-selected);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-1PloNW .textContentFooter-2JnNv8 {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container_c24cbd .textContentFooter__5a630 {
   background: transparent;
 }
 :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container__99b06:active, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container__15ddf:active {
@@ -1008,120 +1001,120 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   background-color: var(--background-secondary);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .default__3e2f5 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .default__3e2f5 {
   background-color: var(--background-primary);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .avatarUploaderInnerSquareDisabled__3cfd1 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .avatarUploaderInnerSquareDisabled__3cfd1 {
   background-color: var(--background-secondary-alt);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .tierHeaderContent__27033 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .tierHeaderContent__27033 {
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .prefixInput__38dcc {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .prefixInput__38dcc {
   background-color: var(--input-background);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .backgroundContainer__06189 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .backgroundContainer__06189 {
   background-color: var(--background-secondary-alt);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .containerFooter_c8da8a {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .containerFooter_c8da8a {
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .iconWrapper__9caa9 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .iconWrapper__9caa9 {
   background: var(--button-secondary-background);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .iconWrapper__9caa9 .icon_ae3492:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .iconWrapper__9caa9 .icon_ae3492:hover {
   background: var(--button-secondary-background-hover);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .iconWrapper__9caa9 .icon_ae3492:hover.disabled_d58a9f {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .iconWrapper__9caa9 .icon_ae3492:hover.disabled_d58a9f {
   background: var(--button-secondary-background-disabled);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .auditLog__6c805 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .auditLog__6c805 {
   border-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .auditLog__6c805 .header_e08fd2 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .auditLog__6c805 .header_e08fd2 {
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .auditLog__6c805 .headerExpanded__03c29 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .auditLog__6c805 .headerExpanded__03c29 {
   background-color: var(--background-secondary-alt);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .auditLog__6c805 .divider__1505d {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .auditLog__6c805 .divider__1505d {
   background-color: var(--background-modifier-accent);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .auditLog__6c805 .changeDetails_ecd760 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .auditLog__6c805 .changeDetails_ecd760 {
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .tierBody__615a1 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .tierBody__615a1 {
   background-color: var(--background-secondary-alt);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .sidebarRegion__60457,
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .sidebarRegionScroller__1fa7e {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .sidebarRegion__60457,
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .sidebarRegionScroller__1fa7e {
   background-color: var(--background-primary);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .cardPrimary_cb7a0e.outline_cb0aed {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .cardPrimary_cb7a0e.outline_cb0aed {
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .connectContainer__8050b {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .connectContainer__8050b {
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .connectContainer__8050b .wrapper__03d5e:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .connectContainer__8050b .wrapper__03d5e:hover {
   background-color: var(--background-modifier-hover);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .integration_d2f026 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .integration_d2f026 {
   background-color: var(--background-primary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .feature-2IUcBI {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .feature-2IUcBI {
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .guildHeader__30707 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .guildHeader__30707 {
   background-color: var(--background-secondary-alt);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .paymentPane__9cf01 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .paymentPane__9cf01 {
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .paymentPane__9cf01 .expandedInfo__47bad {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .paymentPane__9cf01 .expandedInfo__47bad {
   background-color: var(--background-primary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .paymentPane__9cf01 .paginator_e620d3 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .paymentPane__9cf01 .paginator_e620d3 {
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .paymentPane__9cf01 .paginator_e620d3 .payment__7d702 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .paymentPane__9cf01 .paginator_e620d3 .payment__7d702 {
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .paymentPane__9cf01 .paginator_e620d3 .payment__7d702.hoverablePayment__3ea24:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .paymentPane__9cf01 .paginator_e620d3 .payment__7d702.hoverablePayment__3ea24:hover {
   background-color: var(--background-modifier-hover);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .paymentPane__9cf01 .bottomDivider_a59d97 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .paymentPane__9cf01 .bottomDivider_a59d97 {
   border-bottom-color: var(--background-modifier-accent);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .codeRedemptionRedirect_bc7f36 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .codeRedemptionRedirect_bc7f36 {
   border-color: var(--background-tertiary);
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .preview_f42b5d {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .preview_f42b5d {
   border-color: var(--background-secondary);
   background-color: var(--background-primary) !important;
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .notches__065e9.gray__4fb3f {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .notches__065e9.gray__4fb3f {
   color: var(--background-primary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .container-30qY7E {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .container-30qY7E {
   background-color: var(--input-background);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .game__19f4b {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .game__19f4b {
   box-shadow: none;
   border-bottom: 1px solid var(--background-modifier-accent);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .game__19f4b .gameNameInput_e25dd8:is(:hover, :focus) {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .game__19f4b .gameNameInput_e25dd8:is(:hover, :focus) {
   border-color: var(--background-tertiary);
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .option_a0c054:not(.selected_ea51d6, :hover) {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .option_a0c054:not(.selected_ea51d6, :hover) {
   background-color: var(--background-accent);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .disabled_ab18dc:not(.selected_ea51d6, :hover) {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .disabled_ab18dc:not(.selected_ea51d6, :hover) {
   color: var(--background-accent);
 }
 
