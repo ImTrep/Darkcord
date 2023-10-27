@@ -6,9 +6,7 @@
 **/
 
 :root {
-/* amount of spacing and padding */
 --spacing: 11px;
-/* radius of round corners */
 --roundness: 16px;
 border-radius: 14px;
 --blurple-replace: #7289DA;
