@@ -6,7 +6,7 @@ A modern, amoled BD Theme
 
 # Credits
 
-I'll be very honest, i don't know CSS and i wanted a modern, amoled theme on my client, so i just made a copy and paste plus a minimal change, who really deserves some credit are the creators of the themes i used:
+I'll be very honest, i don't know CSS and i wanted a modern, amoled theme on my client, so i just made a copy and paste plus a minimal change, who really deserves credit are the creators of the themes i used:
 
 Modern theme by <https://github.com/refact0r/midnight-discord>
 
