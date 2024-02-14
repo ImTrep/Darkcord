@@ -69,14 +69,20 @@ border-radius: 14px;
   background-color: transparent;
 }
 
+.inviteToolbar_e74dc0 {
+    display: none;
+}
+
+.scroller__00e7e {
+    border-left: 0px;
+    margin-left: 0px;
+}
+
 .panels__58331,
 .container__0d1a7,
 .header_dd7323,
 .header__3bede,
-.usernameSection__53868,
-.customStatusSection_ce6c27,
-.header_b4d776,
-.scroller__83262, 
+.header_b4d776, 
 .scroller__00e7e,
 .theme-dark .themed_b152d4 {
   background-color: var(--background-primary);
@@ -199,16 +205,19 @@ path[fill="var(--status-danger)"] /* vencord game activity toggle */ {
 	filter: saturate(0.2) hue-rotate(-20deg) brightness(0.15);
 }
 
+
 /* add margin */
+.container_ca50b9 {
+  height: 56px;
+}
 .content__4bf10 /* outside edges */ {
 	margin: 0 var(--spacing) var(--spacing) 0;
 }
-.sidebar_ded4b5 /* channel list and user panel */,
-.content__1a4fe /* between chat and member list */ {
-	gap: var(--spacing);
+.content__1a4fe{
 }
 .sidebar_ded4b5 /* channel list and chat */ {
 	margin-right: var(--spacing);
+  gap: var(--spacing);
 }
 .resizeHandle_f1a098 /* pretend to be a margin */ {
 	width: var(--spacing);
@@ -246,17 +255,38 @@ path[fill="var(--status-danger)"] /* vencord game activity toggle */ {
 }
 .chatContent__5dca8 /* main chat */,
 .container-3wLKDe /* forum */,
-.members__9f47b, /* members list */
-.container_b2ce9c /* members list outer */ {
+{
 	border-radius: 0 0 var(--roundness) var(--roundness);
 }
 
-/* separate header bar */
-.title_b7d661.themed_b152d4 /* remove bg */ {
-	background: none;
+.title_b7d661 {
+    position: relative;
+    flex: 0 0 auto;
+    z-index: 100;
 }
-.searchResultsWrap__9f374 /* allow overflow */ {
+
+.container__11d72 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 8px;
+    min-height: 48px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: default;
+    z-index: 2;
+    color: var(--text-normal);
+    --__header-bar-background: var(--background-primary);
+}
+
+.searchResultsWrap__9f374, .searchHeader__19d87 /* allow overflow */ {
 	overflow: visible;
+  background-color: #000000;
 }
 .chatContainer__23434::before /* main chat */,
 .membersWrap__90226::before /* member list */,
