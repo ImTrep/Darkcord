@@ -44,10 +44,7 @@
 .floating_f021e2 {
   border-radius: 0 var(--roundess) var(--roundess) 0;
 }
-.content__1a4fe .chatContent__5dca8:has(+.container_b2ce9c) {
-  border-radius: 0 var(--roundess);
-}
-.content__1a4fe .chatContent__5dca8:has(+.searchResultsWrap__9f374) {
+.content__1a4fe .chatContent__5dca8:has(+.container_b2ce9c,+.profilePanel__12596,+.searchResultsWrap__9f374) {
   border-radius: 0 var(--roundess);
 }
 /* roundess fix */
@@ -225,6 +222,10 @@ html.custom-theme-background [class^="sidebar_"] [class^="panels_"] {
 	transform: scale(1);
 }
 /* background colors */
+.theme-dark .userPanelOverlayBackground__34fc8,
+.theme-dark .lookFilled__3dba3.select__0eb48,
+.theme-dark .inputDefault__80165,
+.theme-dark .searchBarComponent__22760,
 .theme-dark .input__848cd,
 .theme-dark .rowContainer__6f4c6,
 .theme-dark .container__73245,
@@ -297,6 +298,8 @@ html.custom-theme-background [class^="sidebar_"] [class^="panels_"] {
 .theme-dark .scroller__1f96e {
   scrollbar-base-color: var(--background-3);
 }
+.theme-dark .none__51a8f,
+.theme-dark .container_b2ce9c,
 .theme-dark .quickswitcher_a3d29a,
 .theme-dark .container__7590f,
 .theme-dark .channelSelectScrollerInner__21055,
@@ -362,6 +365,8 @@ html.custom-theme-background [class^="sidebar_"] [class^="panels_"] {
 .theme-dark .headerWave_e4fdee {
   color: var(--background-2);
 }
+.theme-dark .theme__94206 div,
+.theme-dark .fullscreen__872d5,
 .theme-dark .result__25f11[aria-selected=true],
 .theme-dark .previewMessage__1075c,
 .theme-dark .lookFilled__19298.colorPrimary__6ed40,
@@ -409,7 +414,6 @@ html.custom-theme-background [class^="sidebar_"] [class^="panels_"] {
 .theme-dark .pageWrapper_fef757,
 .theme-dark .scroller__3d071,
 .theme-dark .container_b181b6,
-.theme-dark .container_b2ce9c,
 .theme-dark .resizeHandle_f1a098,
 .theme-dark .tree__7a511,
 .theme-dark .appMount_fae9dd,
