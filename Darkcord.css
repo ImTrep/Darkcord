@@ -44,7 +44,7 @@
 .floating_f021e2 {
   border-radius: 0 var(--roundess) var(--roundess) 0;
 }
-.content__1a4fe .chatContent__5dca8:has(+.container_b2ce9c,+.profilePanel__12596,+.searchResultsWrap__9f374) {
+.content__1a4fe .chatContent__5dca8:has(+.container_b2ce9c,+.profilePanel__12596,+.searchResultsWrap__9f374,+.membersWrap__90226) {
   border-radius: 0 var(--roundess);
 }
 /* roundess fix */
